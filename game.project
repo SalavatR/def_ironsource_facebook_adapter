@@ -1,0 +1,5 @@
+[project]
+title = ironsource_facebook_adapter
+
+[library]
+include_dirs = ironsource_facebook_adapter
