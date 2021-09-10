@@ -5,6 +5,6 @@ repositories {
 }
 dependencies {
     // Add Facebook Network
-    implementation 'com.ironsource.adapters:facebookadapter:4.3.28'
-    implementation 'com.facebook.android:audience-network-sdk:6.5.1'
+    implementation 'com.ironsource.adapters:facebookadapter:4.3.30'
+    implementation 'com.facebook.android:audience-network-sdk:6.6.0'
 }
