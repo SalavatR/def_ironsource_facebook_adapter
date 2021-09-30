@@ -3,7 +3,7 @@ name: "IronsourceFacebookAdapter"
 platforms:
     ios:
         context:
-            frameworks: ["UIKit", "AdSupport", "StoreKit", "FBAudienceNetwork", "FBSDKCoreKit_Basics"]
+            frameworks: ["UIKit", "AdSupport", "StoreKit", "CoreMotion", "FBAudienceNetwork"]
             linkFlags:  ["-ObjC"]
     android:
       context:
