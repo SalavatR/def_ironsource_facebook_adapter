@@ -3,8 +3,9 @@ name: "IronsourceFacebookAdapter"
 platforms:
     ios:
         context:
-            frameworks: ["UIKit", "AdSupport", "StoreKit", "CoreMotion", "FBAudienceNetwork"]
-            linkFlags:  ["-ObjC"]
+            frameworks: ["UIKit", "AdSupport", "StoreKit","IronSource"]
+            linkFlags:  ["-ObjC", '-Wl,-rpath,/usr/lib/swift', '-Wl,-rpath,@executable_path/Frameworks']
+            libs:       ["swiftCompatibility51", "swiftCompatibility50"]
     android:
       context:
         aaptExtraPackages: ['androidx.core', 'androidx.work', com.google.ads, 'com.google.android.gms', 'com.google.android.gms.ads', 'com.google.android.gms.common']
